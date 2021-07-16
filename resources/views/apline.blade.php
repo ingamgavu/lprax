@@ -12,6 +12,9 @@
    <form @submit.prevent="addperson">
      <input type="text" x-model="value"  name="username">
    </form>
+    <form @submit.prevent="addperson">
+     <input type="text" x-model="value"  name="username">
+   </form>
    {{-- now to loop over all the users that we have --}}
 <ul>
     <template x-for="person in people">
